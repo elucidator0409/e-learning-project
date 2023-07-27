@@ -23,17 +23,9 @@ import MyTutorsPage from "pages/MyTutorsPage";
 import MyClassesPage from "pages/MyClassesPage";
 import CoursesPage from "pages/MyCoursesPage";
 import VideoPlayerPage from "pages/VideoPlayerPage";
-import SignUp from "pages/SignUp";
-import LogInStudent from "pages/student/Register";
-import ForgotPasswordStudent from "pages/student/ForgotPassword";
-import ResetPasswordStudent from "pages/student/ResetPassword";
-import LogInTutor from "pages/tutor/LogIn";
-import ForgotPasswordTutor from "pages/tutor/ForgotPassword";
-import ResetPasswordTutor from "pages/tutor/ResetPassword";
 import AllClasses from "pages/AllClassesPage";
 import VideoCallPage from "pages/VideoCallPage";
 
-import Welcome from "pages/student/Welcome";
 import Register from "pages/student/Register";
 import RequireAuth from "pages/student/RequireAuth";
 import LoginPage from "pages/student/LoginPage";
@@ -54,7 +46,7 @@ function App() {
 
             {/* protected routes */}
             <Route path="/" element={<Layout />}>
-              <Route path="home" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="about" element={<AboutPage />} />
               <Route path="contact" element={<Contact />} />
               <Route path="pricing" element={<PricePage />} />

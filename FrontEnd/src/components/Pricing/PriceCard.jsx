@@ -1,5 +1,5 @@
 import React from "react";
-import { price } from "../../dummydata";
+import { price } from "../../mock_data/dummydata";
 import styled from "styled-components";
 
 const CardStyled = styled.div`
