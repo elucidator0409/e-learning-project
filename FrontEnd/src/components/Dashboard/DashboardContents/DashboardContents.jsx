@@ -4,9 +4,9 @@ import "react-alice-carousel/lib/alice-carousel.css";
 
 import "react-multi-carousel/lib/styles.css";
 import { StudentReviewCard, TutorCard } from "../DashboardCard";
-import fakeData from "../../../TUTOR_CARD_MOCK_DATA.json";
-import fakeData2 from "../../../STUDENT_REVIEWS_MOCK_DATA.json";
-import fakeData3 from "../../../TUTOR_RANKING_MOCK_DATA.json";
+import fakeData from "../../../mock_data/TUTOR_CARD_MOCK_DATA.json";
+import fakeData2 from "../../../mock_data/STUDENT_REVIEWS_MOCK_DATA.json";
+import fakeData3 from "../../..//mock_data/TUTOR_RANKING_MOCK_DATA.json";
 import { useState } from "react";
 import { TutorHoverCard } from "../DashboardCard/TutorHoverCard";
 import { TutorRankingTable } from "../Table";

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { DropdownSelector } from "../Selector";
 import { CalenderSelector } from "../Selector";
 import { Button } from "components/Button/Button";
-import fakeData from "../../../LIST_CLASS_MOCK_DATA.json";
+import fakeData from "../../../mock_data/LIST_CLASS_MOCK_DATA.json";
 import { ClassCard } from "../DashboardCard";
 import { PopupDetails } from "./PopupDetails";
 

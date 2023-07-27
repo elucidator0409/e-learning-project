@@ -3,7 +3,7 @@ import { DropdownSelector } from "../Selector";
 import { CalenderSelector } from "../Selector";
 import { Button } from "components/Button/Button";
 import { MyClassesTable } from "../Table";
-import fakeData from "../../../MOCK_DATA.json";
+import fakeData from "../../../mock_data/MOCK_DATA.json";
 
 const MyClassPageContentsStyled = styled.div`
   height: 1273px;
